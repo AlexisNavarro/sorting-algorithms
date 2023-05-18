@@ -1,3 +1,8 @@
+#how it works:
+#in bubble sort, this algorithm compares the current value to the one next to it
+#if the current value is greater than the adjacent value, then we swap their places in the list
+#in the case that the current value is less than the next, then we need to compare the next value along with the values adjacent to it.
+
 def bubble_sort(values):
 
     size = len(values)
