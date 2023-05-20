@@ -5,16 +5,22 @@ The purpose of this sorting algorithms is for me to be able to demonstrate my kn
 
 ## Insertion Sort
 
+The purpose of insertion sort is to be able to sort an array by selecting an index and comparing it to the values before it
+if we find a value that is greater than the current value in our current index, then we INSERT the current value before the greater value.
+
+Running Time:
+* big O(n^2)
 ## Quick Sort
 
 A **Divide and Conquer** algorithm!
-Running time:
-* big O(n^2) worst case
-* big O(n*log(n)) best and worst case
 
 
 How it works:
 Quick sort works by allowing us to sort an array by dividing the array into 2 using a pivot which can be selected randomly or by a user once the pivot is selected, we need to find the values that are greater and less than the pivot, once that is found then we now have to  swap the greater value and the less than value with each other. Eventually, there will be a need where the pivot needs to be repositioned when the there is a value greater to the pivot itself and that would occur normally at the end once the values swapped from before is done. This algorithm will be using recursion being that its the best fit to use in divide and conquer algorithms.
+
+Running time:
+* big O(n^2) worst case
+* big O(n*log(n)) best and worst case
 
 ## Selection Sort
 
