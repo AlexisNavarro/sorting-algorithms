@@ -1,6 +1,7 @@
 
 #big O(n^2)
-#
+#The purpose of insertion sort is to be able to sort an array by selecting an index and comparing it to the values before it
+#if we find a value that is greater than the current value in our current index, then we INSERT the current value before the greater value.
 def insertion_sort(arr):
     for i in range(1, len(arr)): #start at index 1 and move to the right
         j = i 
