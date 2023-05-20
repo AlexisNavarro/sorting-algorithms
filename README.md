@@ -3,6 +3,8 @@ The purpose of this sorting algorithms is for me to be able to demonstrate my kn
 
 ## Bubble Sorting
 
+In bubble sort, this algorithm compares the current value to the one next to it if the current value is greater than the adjacent value, then we swap their places in the list in the case that the current value is less than the next, then we need to compare the next value along with the values adjacent to it.
+
 ## Insertion Sort
 
 The purpose of insertion sort is to be able to sort an array by selecting an index and comparing it to the values before it
