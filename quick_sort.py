@@ -22,7 +22,7 @@ def partition(arr, left, right):
             j-=1 #j moves to the left
 
         if i < j:
-            arr[i], arr[j] = arr[j], arr [i] #swap the elements when they don't cross 
+            arr[i], arr[j] = arr[j], arr [i] #swap the elements when they don't cross the pivot 
 
     if arr[i] > pivot:
         arr[i], arr[right] = arr[right], arr[i] #swap the positon at i with the pivot since pivot is arr[right]
