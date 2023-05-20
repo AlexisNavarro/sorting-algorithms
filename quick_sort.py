@@ -3,6 +3,15 @@
 #big O(n^2) worst case
 #big O(n*log(n)) best and worst case
 
+
+#How it works:
+#Quick sort works by allowing us to sort an array by dividing the array into 2 using a pivot which can be selected randomly or by a user
+#once the pivot is selected, we need to find the values that are greater and less than the pivot, once that is found then we now have to 
+#swap the greater value and the less than value with each other. Eventually, there will be a need where the pivot needs to be repositioned
+#when the there is a value greater to the pivot itself and that would occur normally at the end once the values swapped from before is done.
+#This algorithm will be using recursion being that its the best fit to use in divide and conquer algorithms.
+
+ 
 def quick_sort(arr, left, right):
     if left < right:
         split_pos = partition(arr, left, right)
