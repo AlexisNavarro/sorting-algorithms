@@ -26,12 +26,15 @@ Running time:
 
 ## Selection Sort
 
-A **Divide and Conquer** algorithm!
+
 
 To be able to do selection sorting, we have keep track of a minimum index which will be the starting value of the array(this value will switch as we move one), when we find a value smaller than the value in the minimum value then we declare that value to the position that we found a smaller value once that is done, we then swap the positions of the current value we are located at to the smallest value we found.
 
 
 ## Merge Sort
+
+A **Divide and Conquer** algorithm!
+
 How it works:
 To be able to do merge sort, you first need to be able to Split the arrays into halves until they can't be split anymore (stops at 1 element in a sub array). Once the arrays and sub arrays are fully split, then its time to compare the last sub arrays with each other and sort them into a new array
 
