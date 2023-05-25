@@ -17,7 +17,6 @@ Running Time:
 A **Divide and Conquer** algorithm!
 
 
-How it works:
 Quick sort works by allowing us to sort an array by dividing the array into 2 using a pivot which can be selected randomly or by a user once the pivot is selected, we need to find the values that are greater and less than the pivot, once that is found then we now have to  swap the greater value and the less than value with each other. Eventually, there will be a need where the pivot needs to be repositioned when the there is a value greater to the pivot itself and that would occur normally at the end once the values swapped from before is done. This algorithm will be using recursion being that its the best fit to use in divide and conquer algorithms.
 
 Running time:
@@ -35,9 +34,16 @@ To be able to do selection sorting, we have keep track of a minimum index which 
 
 A **Divide and Conquer** algorithm!
 
-How it works:
 To be able to do merge sort, you first need to be able to Split the arrays into halves until they can't be split anymore (stops at 1 element in a sub array). Once the arrays and sub arrays are fully split, then its time to compare the last sub arrays with each other and sort them into a new array
 
 Running time:
 * big O(n*log(n)) optimal running time 
 
+## Heap Sort
+
+Heap sort is essentially used for binary trees specifically when you want to sort them, in this heap sort implementation I implemented a max heap rather than a min heap. The max heap will be comparing the root node with the child and in this case the root node shall be always greater than the left most children nodes. while the right child nodes will be always greater than the root node and the left child nodes.
+
+Running times:
+* Build the max_heapify is big O(log(n))
+* Create and build heap is big O(n)
+* Final time complexity of heap sort is big O(n*log(n))
