@@ -36,5 +36,5 @@ How it works:
 To be able to do merge sort, you first need to be able to Split the arrays into halves until they can't be split anymore (stops at 1 element in a sub array). Once the arrays and sub arrays are fully split, then its time to compare the last sub arrays with each other and sort them into a new array
 
 Running time:
-* big O(n*log(n)) running time (optimal)
+* big O(n*log(n)) optimal running time 
 
